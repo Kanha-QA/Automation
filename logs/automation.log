@@ -1,0 +1,424 @@
+14:46:28.292 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+14:46:28.299 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+14:46:28.301 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.301 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.301 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.301 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.302 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.309 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+14:46:28.318 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+14:46:28.319 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.319 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.320 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.320 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.320 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.321 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.322 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.322 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.323 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.323 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.325 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.325 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.325 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.325 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.326 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.327 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.328 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.328 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.328 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:46:28.328 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:46:28.336 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mahes\AppData\Local\Temp\testng-eclipse--1695756172\testng-customsuite.xml
+
+14:46:28.357 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+14:46:29.649 [main] ERROR org.testng.internal.Utils - [Error] java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at utilities.DataProviders.getData(DataProviders.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+14:46:29.856 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@abbc908: 100 ms
+14:46:29.875 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@31e32ea2: 18 ms
+14:46:29.887 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@5d1e09bc: 12 ms
+14:46:29.895 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@77ee25f1: 8 ms
+14:46:29.905 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6b3871d6: 10 ms
+14:46:29.906 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@37095ded: 0 ms
+14:52:58.730 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+14:56:47.536 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.541 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+14:56:47.542 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.542 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.543 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.543 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.543 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.543 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.549 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+14:56:47.557 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+14:56:47.558 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.559 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.559 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.559 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.560 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.560 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.561 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.562 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.562 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.562 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.564 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.564 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.565 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.565 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.566 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.566 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.567 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.567 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.567 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:47.568 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:47.573 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mahes\AppData\Local\Temp\testng-eclipse-311747573\testng-customsuite.xml
+
+14:56:47.591 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+14:56:48.308 [main] ERROR org.testng.internal.Utils - [Error] java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at utilities.DataProviders.getData(DataProviders.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+14:56:48.432 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@71178a52: 67 ms
+14:56:48.448 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5972d253: 15 ms
+14:56:48.456 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@27aae97b: 8 ms
+14:56:48.465 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@21719a0: 8 ms
+14:56:48.471 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@12a160c2: 6 ms
+14:56:48.472 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@aa10649: 1 ms
+14:58:09.383 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+15:04:31.163 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+15:04:35.207 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:04:37.156 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:04:37.169 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:04:47.281 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:04:58.118 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:04:59.983 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:04:59.986 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:05:10.647 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:05:21.365 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:11:28.447 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+15:11:32.248 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:11:33.968 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:11:33.974 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:11:44.068 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:11:56.948 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:11:58.901 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:11:58.904 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:12:09.582 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:12:20.510 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:14:35.382 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+15:14:39.010 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:14:40.920 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:14:40.924 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:14:51.057 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:15:02.053 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:15:04.784 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:15:04.788 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:27:16.471 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+15:28:29.195 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+15:29:15.931 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+15:29:19.532 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:29:21.963 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:29:21.968 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:29:32.143 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:29:42.931 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:29:44.973 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:29:44.976 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:29:55.556 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:30:06.309 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:31:22.052 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+15:31:25.656 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:31:27.502 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:31:27.508 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:31:37.656 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:31:48.445 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:31:54.927 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test finished*******
+15:31:54.930 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:32:06.658 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:32:17.806 [main] INFO  testCases.TC003_LoginTest_DataDrivenTesting - *******TC003_LoginTest_DataDrivenTesting Test started*******
+15:49:37.791 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+15:53:47.830 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+15:53:52.389 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+15:53:52.489 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+15:53:52.998 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+15:53:52.999 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+15:53:54.453 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+15:53:54.494 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+15:53:56.823 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+15:53:58.533 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+15:54:50.074 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+15:56:01.537 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+15:56:04.039 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+15:56:05.386 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+15:56:21.447 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+15:56:24.250 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+15:56:25.848 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+15:56:49.139 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+15:56:52.208 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+15:56:52.294 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+15:56:52.807 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+15:56:52.809 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+15:56:54.311 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+15:56:54.348 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+15:56:56.682 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+15:56:58.119 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+17:57:11.089 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+17:57:17.291 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+17:57:17.510 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+17:57:18.065 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+17:57:18.067 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+17:57:19.861 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+17:57:19.936 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+17:57:22.511 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+17:57:24.374 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+18:00:20.245 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+18:00:23.311 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:00:23.439 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:00:23.858 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:00:23.860 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:00:24.542 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:00:25.593 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:00:30.042 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:00:32.304 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+18:04:58.206 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+18:05:01.007 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:05:01.148 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:05:01.686 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:05:01.690 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:05:03.760 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:05:03.821 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:05:06.578 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:05:08.575 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+18:07:53.354 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+18:07:56.380 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:07:56.508 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:07:56.939 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:07:56.941 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:07:58.015 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:07:58.883 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:08:01.569 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:08:03.497 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+18:11:16.232 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+18:11:19.281 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:11:19.392 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:11:19.829 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:11:19.832 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:11:21.529 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:11:21.589 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:11:24.255 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:16:45.153 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+18:16:48.471 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:16:48.631 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:16:49.438 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:16:49.446 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:16:50.334 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:16:51.090 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:16:53.500 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:28:31.749 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+18:28:35.676 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:28:35.965 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:28:36.671 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:28:36.687 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:28:38.299 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:28:38.365 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:28:41.136 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:35:15.035 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\grouping.xml
+
+18:35:18.170 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:35:18.297 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:35:18.835 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:35:18.839 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:35:19.536 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:35:20.525 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:35:23.081 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:45:51.288 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\test-output\testng-failed.xml
+
+18:45:55.129 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:45:57.146 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+18:22:54.061 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+18:23:01.000 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:23:01.245 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:23:01.800 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:23:01.953 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:23:03.581 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:23:03.646 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:23:07.601 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:23:09.641 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+18:24:52.301 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+18:24:55.418 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:24:55.532 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:24:56.207 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:24:56.211 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:24:57.966 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:24:58.031 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:25:00.629 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:25:02.704 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+18:25:59.685 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+18:26:05.571 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:26:07.495 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+18:26:59.634 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+18:27:02.882 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:27:03.016 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:27:03.544 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:27:03.546 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:27:06.023 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:27:06.107 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:27:08.803 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:27:10.475 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+18:28:11.247 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Java Programing & Automation\Automation\master.xml
+
+18:28:14.264 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+18:28:14.424 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+18:28:15.014 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+18:28:15.020 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+18:28:17.282 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+18:28:17.344 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+18:28:19.875 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+18:28:21.702 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+16:21:12.034 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+16:21:12.202 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+16:21:12.794 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+16:21:12.823 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+16:21:14.412 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+16:21:14.457 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+16:21:16.789 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+16:21:18.523 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+17:15:20.366 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+17:15:20.537 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+17:15:20.972 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+17:15:20.975 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+17:15:21.680 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+17:15:22.724 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+17:15:25.289 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+17:15:27.767 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+17:39:39.740 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+17:39:39.857 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+17:39:40.349 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+17:39:40.355 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+17:39:40.917 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+17:39:41.955 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+17:39:44.377 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+17:39:45.830 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
+17:40:10.017 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *******
+17:40:10.139 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link....
+17:40:10.670 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register Link....
+17:40:10.672 [main] INFO  testCases.TC001_AccountRegistrationTest - Prividing customer details....
+17:40:11.990 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+17:40:12.038 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *******
+17:40:14.232 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test started*******
+17:40:15.916 [main] INFO  testCases.TC002_LoginTest - *******TC002_Login Test finished*******
